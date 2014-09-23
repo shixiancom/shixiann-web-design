@@ -12,16 +12,16 @@
 	<array>
 		<string>OpenSans</string>
 		<string>FontAwesome</string>
-		<string>OpenSans-Light</string>
-		<string>OpenSans-Bold</string>
 		<string>OpenSans-Semibold</string>
-		<string>AvenirNext-Regular</string>
+		<string>OpenSans-Bold</string>
+		<string>OpenSans-Light</string>
 		<string>AvenirNext-Bold</string>
+		<string>AvenirNext-Regular</string>
 		<string>Palatino-Italic</string>
 		<string>AvenirNext-Medium</string>
 	</array>
 	<key>length</key>
-	<integer>2755079</integer>
+	<integer>3414527</integer>
 	<key>version</key>
 	<integer>37</integer>
 </dict>
