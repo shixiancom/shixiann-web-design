@@ -14,6 +14,8 @@
 		<string>FontAwesome</string>
 		<string>OpenSans-Semibold</string>
 		<string>OpenSans-Bold</string>
+		<string>NotoSansCJKsc-Thin</string>
+		<string>NotoSansCJKsc-DemiLight</string>
 		<string>OpenSans-Light</string>
 		<string>AvenirNext-Bold</string>
 		<string>AvenirNext-Regular</string>
@@ -21,7 +23,7 @@
 		<string>AvenirNext-Medium</string>
 	</array>
 	<key>length</key>
-	<integer>3573209</integer>
+	<integer>3844958</integer>
 	<key>version</key>
 	<integer>37</integer>
 </dict>
