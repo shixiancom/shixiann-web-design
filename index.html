@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>实现</title>
+	<link rel="favicon shortcut icon" href="">
+	<link rel="apple-touch-icon" href="">
+	<style type="text/css">
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		font-family: 'Open Sans', 'Hiragino Sans GB', sans-serif;
+		/*font-family: 'Titillium Web', 'Hiragino Sans GB', sans-serif;*/
+		font-size: 16px;
+		padding: 0;
+		margin: 0;
+	}
+	header.global {
+		color: #FFF;
+		background: #29F url(bg.jpg) scroll center no-repeat;
+		background-size: cover;
+
+		height: 500px;
+		padding: 330px 0 0;
+	}
+	.fire-balloon {
+		position: absolute;
+		top: 120px;
+		width: 100%;
+	}
+	.fire-balloon img {
+		display: block;
+		width: 125px;
+		margin: 0 auto;
+	}
+	.site-title {
+		text-align: center;
+		/*text-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;*/
+	}
+	.site-title h1, .site-title h2 {
+		margin: 8px 0;
+	}
+	.site-title h1 {
+		font-size: 2.5em;
+	}
+	h1 span.shixian {
+		font-weight: 600;
+		opacity: 0.92;
+	}
+	h1 span.com {
+		font-weight: 300;
+		opacity: 0.92;
+	}
+	.site-title h2 {
+		font-size: 1.75em;
+		font-weight: 300;
+		opacity: 0.72;
+	}
+	.content {
+		min-height: 1200px;
+	}
+	</style>
+	<script type="text/javascript">
+	var docDidScroll = function () {
+		document.getElementById("balloon").style.top = (120+window.pageYOffset*0.10) + "px";
+		document.getElementById("site-title-h2").style.marginTop = (8-window.pageYOffset*0.075) + "px";
+	};
+	</script>
+</head>
+<body onscroll="docDidScroll()">
+	<div class="cont">
+		<header class="global">
+			<div class="block-inside">
+				<div class="fire-balloon" id="balloon">
+					<img src="ball.png">
+				</div>
+				<div class="site-title">
+					<h1><span class="shixian">Product</span><span class="com">Boot</span></h1>
+					<h2 id="site-title-h2">Push ideas into reality.</h2>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+		</div>
+	</div>
+</body>
+</html>
